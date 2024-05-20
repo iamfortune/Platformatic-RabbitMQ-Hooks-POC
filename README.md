@@ -2,11 +2,12 @@
 
 This project demonstrates how to use Platformatic to invoke RabbitMQ hooks from a Platformatic service. The client interacts with a remote OpenAPI and GraphQL API using Platformatic's client.
 
-## Requirements
+## Prerequisites
 
-- Docker
-- Node.js
-- Platformatic CLI
+- [Docker](https://www.docker.com/)
+- [RabbitMQ](https://www.rabbitmq.com/)
+- [Node.js](https://nodejs.org/en)
+- [Platformatic CLI](https://docs.platformatic.dev/docs/cli)
 
 ## Setup
 
