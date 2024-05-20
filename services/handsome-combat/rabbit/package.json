@@ -1,0 +1,4 @@
+{
+  "name": "rabbit",
+  "types": "./rabbit.d.ts"
+}

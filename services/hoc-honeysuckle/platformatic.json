@@ -1,0 +1,29 @@
+{
+  "$schema": "./stackable.schema.json",
+  "service": {
+    "openapi": true
+  },
+  "watch": true,
+  "plugins": {
+    "paths": [
+      {
+        "path": "./plugins",
+        "encapsulate": false
+      },
+      "./routes"
+    ],
+    "typescript": "{PLT_HOC_HONEYSUCKLE_TYPESCRIPT}"
+  },
+  "module": "@platformatic/rabbitmq-hooks@0.2.0",
+  "rabbitmq": {
+    "url": "{PLT_HOC_HONEYSUCKLE_RABBITMQ_CONNECTION_URL}",
+    "generateExchange": "{PLT_HOC_HONEYSUCKLE_RABBITMQ_GENERATE_EXCHANGE}",
+    "exchanges": [
+      {
+        "name": "{PLT_HOC_HONEYSUCKLE_RABBITMQ_EXCHANGE_NAME_0}",
+        "targetUrl": "{PLT_HOC_HONEYSUCKLE_RABBITMQ_TARGET_URL_0}",
+        "queue": "{PLT_HOC_HONEYSUCKLE_RABBITMQ_TARGET_QUEUE_0}"
+      }
+    ]
+  }
+}
