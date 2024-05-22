@@ -8,7 +8,7 @@
     "borp": "^0.10.0"
   },
   "dependencies": {
-    "platformatic": "^1.33.0"
+    "platformatic": "^1.41.0"
   },
   "engines": {
     "node": "^18.8.0 || >=20.6.0"
