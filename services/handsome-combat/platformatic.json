@@ -1,5 +1,5 @@
 {
-  "$schema": "https://platformatic.dev/schemas/v1.33.0/service",
+  "$schema": "https://platformatic.dev/schemas/v1.41.0/service",
   "service": {
     "openapi": true
   },
