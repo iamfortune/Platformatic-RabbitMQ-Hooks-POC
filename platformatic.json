@@ -1,5 +1,5 @@
 {
-  "$schema": "https://platformatic.dev/schemas/v1.33.0/runtime",
+  "$schema": "https://platformatic.dev/schemas/v1.41.0/runtime",
   "entrypoint": "handsome-combat",
   "allowCycles": false,
   "hotReload": true,
